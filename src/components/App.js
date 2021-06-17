@@ -1,9 +1,7 @@
+import Docs from "../pages/Docs";
+
 const App = () => {
-  return (
-    <div className="bg-gray-50">
-      <p>Hello</p>
-    </div>
-  );
+  return <Docs />;
 };
 
 export default App;
