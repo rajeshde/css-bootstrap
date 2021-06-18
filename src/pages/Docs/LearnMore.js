@@ -1,7 +1,7 @@
 const LearnMore = () => (
-  <div className="flex justify-center items-center bg-gradient-to-r from-indigo-600 to-blue-500 px-6 sm:px-4 py-2">
+  <div className="flex justify-center items-center bg-gradient-to-r from-indigo-600 to-lightBlue-500 px-6 sm:px-4 py-2">
     <div className="text-white font-medium text-sm">
-      Just-in-Time: The Next Generation of Tailwind CSS
+      Just-in-Time: The Next Generation of Tailwind&nbsp;CSS
     </div>
     <span
       aria-hidden={true}
