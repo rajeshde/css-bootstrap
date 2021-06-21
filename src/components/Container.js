@@ -1,5 +1,5 @@
 const Container = ({ children }) => {
-  return <div>{children}</div>;
+  return <div className="font-sans antialiased">{children}</div>;
 };
 
 export default Container;

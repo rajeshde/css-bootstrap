@@ -28,15 +28,15 @@ const StickyHeader = () => {
           <svg
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
-            className="h-6 w-6 stroke-current text-gray-400 stroke-2 group-hover:text-gray-600 transition-colors duration-200 mr-4"
+            className="h-6 w-6 stroke-current text-gray-400 stroke-2 group-hover:text-gray-500 transition-colors duration-200 mr-4"
           >
             <path d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
           </svg>
-          <span className="group-hover:text-gray-600 text-gray-500 tracking-wide">
+          <span className="group-hover:text-gray-700 text-gray-600 transition-colors duration-200">
             Quick search
             <span className="hidden sm:inline"> for anything</span>
           </span>
-          <span className="hidden sm:block border rounded-md group-hover:text-gray-600 group-hover:border-gray-500 border-gray-300 ml-4 px-1.5 py-0.5 text-sm text-gray-400">
+          <span className="hidden sm:block border rounded-md border-gray-300 ml-4 px-1.5 py-0.5 text-sm text-gray-400">
             ⌘K
           </span>
         </button>
